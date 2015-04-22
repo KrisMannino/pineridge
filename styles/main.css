@@ -1,4 +1,20 @@
-.logo{
-  max-width: 150%;
-  height: auto;
+
+#brand-image{
+
+  height: 130px;
+
+}
+.navbar {
+  background-color: white;
+
+  height: 150px;
+}
+.navText{
+  align-text: center;
+}
+#aList  li > a {
+  padding-left: 50px;
+}
+#aSearch{
+  align: right;
 }
