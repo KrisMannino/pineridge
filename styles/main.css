@@ -1,41 +1,73 @@
-
-.navbar {
+.navbar{
+  margin: 25px;
   background-color: white;
+}
 
-/*   height: 150px;
- */}
+/* ++++++++++++++LOGO in Navbar++++++++++++++ */
+#bigLogoImg{
+  padding-left: 50px;
+  height: 170px;
+  width: auto;
+}
+#midLogoImg{
+  padding-left: 50px;
+
+  height: 150px;
+  width: auto;
+}
+#smLogoImg{
+  height: 110px;
+  width: auto;
+}
+#lilLogoImg{
+  height: 60px;
+  width: auto;
+}
+
+/* ++++++++++++++Text in Navbar++++++++++++++ */
 #navHeadText{
+  padding-top: 12px;
   align-text: center;
   font-size: 30px;
     font-size: 1.9vw;
   text-style: bold;
-  float: left;
+/*   float: left; */
   padding-left: 40px;
+  padding-right: 20px;
+
+}
+@media (min-width: 768px){
+  .navbar-nav {
+    float: right;
+    margin: 0;
+  }
 }
 @media (min-width: 768px){
   #navHeadText{
-    float:right;
+  float:right;
   }
-}
-
-#navLinkList  li  {
-  padding-left: 10px;
-  padding-bottom: 10px;
-  padding-right: 10px;
-}
-#navLinkList  li:hover{
-  background-color:green;
 }
 #phoneNum{
   font-size: 1.2em;
 }
-#aSearch{
-  align: right;
+
+/* ++++++++++++++Links in Navbar++++++++++++++ */
+#navLinkList  li  a{
+  text-align: center;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  padding-right: 30px;
+}
+#navLinkList  li  {
+  margin: 0px;
+}
+#navLinkList  li:hover{
+  background-color:green;
 }
 #navSearch{
-  float: right;
+  /* float: right; */
+  padding-right: 40px;
 }
-.navbar-nav {
-  float: right;
-  margin: 0;
+#navSearch span{
+  padding-right: 10px;
 }
