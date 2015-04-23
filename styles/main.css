@@ -1,20 +1,41 @@
 
-#brand-image{
-
-  height: 130px;
-
-}
 .navbar {
   background-color: white;
 
-  height: 150px;
-}
-.navText{
+/*   height: 150px;
+ */}
+#navHeadText{
   align-text: center;
+  font-size: 30px;
+    font-size: 1.9vw;
+  text-style: bold;
+  float: left;
+  padding-left: 40px;
 }
-#aList  li > a {
-  padding-left: 50px;
+@media (min-width: 768px){
+  #navHeadText{
+    float:right;
+  }
+}
+
+#navLinkList  li  {
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+#navLinkList  li:hover{
+  background-color:green;
+}
+#phoneNum{
+  font-size: 1.2em;
 }
 #aSearch{
   align: right;
+}
+#navSearch{
+  float: right;
+}
+.navbar-nav {
+  float: right;
+  margin: 0;
 }
