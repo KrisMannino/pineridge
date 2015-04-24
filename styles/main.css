@@ -62,8 +62,11 @@
   margin: 0px;
 }
 #navLinkList  li:hover{
-  background-color: hsl(195,70%, 50%);
+  background-color:hsla(120, 100%, 21%, 0.84);
   /* background-color: yellow; */
+  -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+-webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+box-shadow: 1px 2px 3px rgba(0,0,0,.5);
 }
 #navSearch{
   /* float: right; */
