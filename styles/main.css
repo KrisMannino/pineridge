@@ -2,7 +2,7 @@
 
 
 .navbar{
-  padding: 2px 27px;
+  padding: 0.01% 3%;
   background-color: rgb(225,222,215);
 }
 
@@ -34,7 +34,7 @@
 
 /* ++++++++++++++Text in Navbar++++++++++++++ */
 #navHeadText{
-  display: overflow;
+  overflow: auto;
   margin: 12px 0px;
   padding-top: 12px;
    font-size: 1.75vw;
@@ -47,6 +47,9 @@
   font-weight: Bold;
   color: rgb(17,85,82);
 }
+#navHeadText span{
+  white-space: nowrap;
+}
 /* @media (min-width: 768px){
   .navbar-nav {
       float: right;
@@ -55,7 +58,7 @@
 } */
  @media (max-width: 768px){
   #navHeadText{
-  float:right;
+  float:left;
   vertical-align: middle;
   }
 }
@@ -75,8 +78,8 @@
 /* ++++++++++++++Links in Navbar++++++++++++++ */
 
 #navLinkList{
-  margin-top: 5px;
-  margin-bottom: 10px;
+  margin-top: .4%;
+  margin-bottom: .8%;
   overflow: auto;
   }
 #navLinkList  li  a{
