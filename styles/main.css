@@ -2,11 +2,15 @@
 
 
 .navbar{
-  padding: 2px 69px;
+  padding: 2px 27px;
   background-color: rgb(225,222,215);
 }
 
 /* ++++++++++++++LOGO in Navbar++++++++++++++ */
+#logoImg{
+  max-height: 165px;
+  width: auto;
+}
 #bigLogoImg{
   /* padding-right: 200px; */
   height: 165px;
@@ -15,7 +19,7 @@
 #midLogoImg{
   padding-left: 18px;
   margin-top: 18px;
-  height: 20px;
+  height: 120px;
   width: auto;
 }
 #smLogoImg{
@@ -30,13 +34,14 @@
 
 /* ++++++++++++++Text in Navbar++++++++++++++ */
 #navHeadText{
+  display: overflow;
   margin: 12px 0px;
   padding-top: 12px;
-   font-size: 1.9vw;
+   font-size: 1.75vw;
 /*   text-style: bold;
  */  padding-left: 40px;
-  padding-right: 12px;
-  float: right;
+/*   padding-right: 12px;
+ */  float: right;
 /*   padding-right: 20px;
  */  font-family: 'Open Sans', sans-serif;
   font-weight: Bold;
@@ -71,25 +76,27 @@
 
 #navLinkList{
   margin-top: 5px;
-}
+  margin-bottom: 10px;
+  overflow: auto;
+  }
 #navLinkList  li  a{
   text-align: center;
-  margin-left: 19px;
-  margin-bottom: 10px;
-  margin-right: 19px;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.85vw;
   color: rgb(17,85,82);
-
+  padding-left: 12%;
+  padding-right: 12%;
 }
 
-#navLinkList  li  a:last-child{
+/* #navLinkList  li  a:last-child{
   padding-right:7px;
   padding-left: 7px;
-}
+} */
 
 #navLinkList  li  {
-  margin: 0px;
+  margin-left: 10px;
+  white-space: nowrap;
+
 }
 #navLinkList  li:hover{
   background-color:hsla(120, 100%, 21%, 0.84);
