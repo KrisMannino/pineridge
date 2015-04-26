@@ -1,45 +1,52 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700,600,400);
+
+ header{
+
+}
 .navbar{
-  margin: 25px;
-  background-color: white;
+  padding: 55px;
+  padding-top: 5px;
+  padding-bottom: 0px;
+  background-color: rgb(225,222,215);
 }
 
 /* ++++++++++++++LOGO in Navbar++++++++++++++ */
 #bigLogoImg{
-  padding-left: 50px;
+  padding-left: 18px;
   height: 170px;
   width: auto;
 }
 #midLogoImg{
-  padding-left: 50px;
-
-  height: 150px;
+  padding-left: 18px;
+  margin-top: 18px;
+  height: 120px;
   width: auto;
 }
 #smLogoImg{
-  height: 110px;
+  margin-top: 18px;
+  height: 70px;
   width: auto;
 }
 #lilLogoImg{
-  height: 60px;
+  height: 40px;
   width: auto;
 }
 
 /* ++++++++++++++Text in Navbar++++++++++++++ */
 #navHeadText{
   padding-top: 12px;
-  align-text: center;
-  font-size: 30px;
-    font-size: 1.9vw;
+   font-size: 1.9vw;
   text-style: bold;
-/*   float: left; */
   padding-left: 40px;
-  padding-right: 20px;
-
+/*   padding-right: 20px;
+ */  font-family: 'Open Sans', sans-serif;
+  font-weight: Bold;
+  color: rgb(17,85,82);
 }
 @media (min-width: 768px){
   .navbar-nav {
-    float: right;
-    margin: 0;
+     float: right;
+     margin: 0;
   }
 }
 @media (min-width: 768px){
@@ -48,30 +55,51 @@
   }
 }
 #phoneNum{
-  font-size: 1.2em;
+  font-size: 1.15em;
 }
 
 /* ++++++++++++++Links in Navbar++++++++++++++ */
+
+#navLinkList{
+  margin-top: 5px;
+}
 #navLinkList  li  a{
   text-align: center;
-  padding-left: 30px;
-  padding-bottom: 10px;
-  padding-right: 30px;
+  margin-left: 19px;
+  margin-bottom: 10px;
+  margin-right: 19px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.85vw;
+  color: rgb(17,85,82);
+
 }
+
+#navLinkList  li  a:last-child{
+  padding-right:7px;
+  padding-left: 7px;
+}
+
 #navLinkList  li  {
   margin: 0px;
 }
 #navLinkList  li:hover{
   background-color:hsla(120, 100%, 21%, 0.84);
-  /* background-color: yellow; */
   -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
 -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
 box-shadow: 1px 2px 3px rgba(0,0,0,.5);
 }
+.navbar-form{
+  padding: 0;
+}
 #navSearch{
-  /* float: right; */
-  padding-right: 40px;
+  float: right;
+  position: absolute;
+  top: 10px;
+  right: 70px;
 }
 #navSearch span{
   padding-right: 10px;
+  padding-left: 75px;
+  font-family: Open Sans;
+  font-size: 1.45em;
 }
