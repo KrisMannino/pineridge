@@ -1,0 +1,22 @@
+{
+  "name": "Pine Ridge",
+  "version": "0.0.1",
+  "homepage": "https://pineridgerestoration.com",
+  "authors": [
+    "krismannino <krismannino@gmail.com>"
+  ],
+  "description": "Pine Ridge Website",
+  "main": "Index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4",
+    "font-awesome": "~4.3.0"
+  }
+}
