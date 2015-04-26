@@ -1,8 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:700,600,400);
 
- header{
 
-}
 .navbar{
   padding: 55px;
   padding-top: 5px;
@@ -38,20 +36,30 @@
    font-size: 1.9vw;
   text-style: bold;
   padding-left: 40px;
+  float: right;
 /*   padding-right: 20px;
  */  font-family: 'Open Sans', sans-serif;
   font-weight: Bold;
   color: rgb(17,85,82);
 }
-@media (min-width: 768px){
+/* @media (min-width: 768px){
   .navbar-nav {
-     float: right;
+      float: right;
      margin: 0;
   }
-}
-@media (min-width: 768px){
+} */
+/* @media (max-width: 768px){
   #navHeadText{
   float:right;
+  }
+} */
+
+.brLine{
+  display: block;
+}
+@media screen and (min-width: 768px){
+  .brLine {
+    display: inline;
   }
 }
 #phoneNum{
@@ -88,10 +96,14 @@
 -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
 box-shadow: 1px 2px 3px rgba(0,0,0,.5);
 }
+
+/* ++++++++++++++Search in Navbar++++++++++++++ */
+
 .navbar-form{
   padding: 0;
 }
 #navSearch{
+  display: inline;
   float: right;
   position: absolute;
   top: 10px;
