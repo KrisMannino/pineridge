@@ -1,28 +1,26 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:700,600,400);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700,600,400,300);
 
 
 .navbar{
-  padding: 55px;
-  padding-top: 5px;
-  padding-bottom: 0px;
+  padding: 2px 69px;
   background-color: rgb(225,222,215);
 }
 
 /* ++++++++++++++LOGO in Navbar++++++++++++++ */
 #bigLogoImg{
-  padding-left: 18px;
-  height: 170px;
+  /* padding-right: 200px; */
+  height: 165px;
   width: auto;
 }
 #midLogoImg{
   padding-left: 18px;
   margin-top: 18px;
-  height: 120px;
+  height: 20px;
   width: auto;
 }
 #smLogoImg{
   margin-top: 18px;
-  height: 70px;
+  height: 90px;
   width: auto;
 }
 #lilLogoImg{
@@ -32,10 +30,12 @@
 
 /* ++++++++++++++Text in Navbar++++++++++++++ */
 #navHeadText{
+  margin: 12px 0px;
   padding-top: 12px;
    font-size: 1.9vw;
-  text-style: bold;
-  padding-left: 40px;
+/*   text-style: bold;
+ */  padding-left: 40px;
+  padding-right: 12px;
   float: right;
 /*   padding-right: 20px;
  */  font-family: 'Open Sans', sans-serif;
@@ -48,11 +48,12 @@
      margin: 0;
   }
 } */
-/* @media (max-width: 768px){
+ @media (max-width: 768px){
   #navHeadText{
   float:right;
+  vertical-align: middle;
   }
-} */
+}
 
 .brLine{
   display: block;
@@ -102,16 +103,33 @@ box-shadow: 1px 2px 3px rgba(0,0,0,.5);
 .navbar-form{
   padding: 0;
 }
+#searchBox{
+  color: rgb(17,85,82);
+  width: 255px;
+  height: 35px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.15em;
+  -moz-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+  -webkit-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+  box-shadow: inset 0 3px 8px rgba(0,0,0,.24);
+}
 #navSearch{
   display: inline;
   float: right;
-  position: absolute;
+  position: relative;
   top: 10px;
-  right: 70px;
+  right: 10px;
 }
+.fa{
+  padding-right: 20px;
+  color: rgb(17,85,82);
+}
+
 #navSearch span{
-  padding-right: 10px;
+  padding-right: 12px;
   padding-left: 75px;
-  font-family: Open Sans;
+  font-family: Open Sans, sans-serif;
+  font-weight: 300;
+  color: rgb(17,85,82);
   font-size: 1.45em;
 }
