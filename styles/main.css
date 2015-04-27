@@ -28,7 +28,7 @@
   width: auto;
 }
 #lilLogoImg{
-  height: 40px;
+  height: 30px;
   width: auto;
 }
 
@@ -74,7 +74,13 @@
 #phoneNum{
   font-size: 1.15em;
 }
-
+#navHeadText2{
+  font-family: 'Open Sans', sans-serif;
+   font-weight: Bold;
+   color: rgb(17,85,82);
+   padding-top: 10px;
+   font-size: 2vw;
+}
 /* ++++++++++++++Links in Navbar++++++++++++++ */
 
 #navLinkList{
@@ -142,4 +148,47 @@ box-shadow: 1px 2px 3px rgba(0,0,0,.5);
   font-weight: 300;
   color: rgb(17,85,82);
   font-size: 1.45em;
+}
+
+/* ++++++++++++++Search in Navbar++++++++++++++ */
+
+.footer {
+  padding: 0.01% 6%;
+  background-color: rgb(102,102,102);
+  height: 10%;
+}
+.footer p{
+
+  font-family: Open Sans, sans-serif;
+  font-weight: 600;
+  font-size: 1.5vw;
+  color: white;
+  margin-bottom: 0px;
+}
+.footerText{
+  margin-top: 3%;
+
+}
+.footerImgs img{
+  max-width: 20%;
+  height: auto;
+  display: inline;
+  padding: 10px;
+  white-space:nowrap;
+}
+.footerImgs img:last-child{
+  max-width: 30%;
+}
+.footerBotText{
+
+}
+.footerBotText p{
+  font-family: Open Sans, sans-serif;
+  font-weight:400;
+  font-size: 1vw;
+  padding: 3%;
+  margin: 2% -20%;
+  background-color: rgb(84,82,82);
+  height: 2%;
+  text-align: center;
 }
