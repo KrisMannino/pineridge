@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="styles/main.css">
+  
 </head>
 <body>
 <div id="wrapper">
@@ -53,6 +54,9 @@
               <span class="hidden-sm">connect with us</span>
                 <i href="facebook.com" class="fa fa-facebook fa-lg"></i>
                 <i href="twitter.com" class="fa fa-twitter fa-lg"></i>
+
+
+
               <input type="text" id="searchBox" placeholder="   search the site">
             </div>
           </form>
@@ -70,10 +74,10 @@
         <ul class="nav navbar-nav navbar-right" id="navLinkList">
           <!-- <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li> -->
           <li><a href="#">Home</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Meet the Team</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="/team.html">Meet the Team</a></li>
           <li><a href="#">Testimonials</a></li>
-          <li><a href="#">Contact Us</a></li>
+          <li><a href="#contact">Contact Us</a></li>
         </ul>
       </div>
     </div>
@@ -82,42 +86,48 @@
   </nav>
 </header>
 
-<div class="topBody">
+<div class="topBody gallery">
 <img src="images/banner1.png" alt="24" class="banner img-responsive">
+<img src="images/banner2.png" alt="24" class="banner img-responsive">
 </div>
-<div class="midBody">
-  <div class="row">
-  <div class="col-md-7">
-  <p>Pine Ridge Cleaning & Restoration</p>
-  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae</p>
+
+<div id="services" class="midBody">
+  <div class="container-fluid">
+  <div class="col-md-7 col-sm-7">
+  <p class="midBodyH">Pine Ridge Cleaning & Restoration</p>
+  <p class="midBodyP">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. </br>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae</p>
   </div>
-<div class="col-mid-5">
+<div class="col-mid-5 col-sm-5">
   <span>
   <ul>
-    <li>Water</li>
-    <li>Fire</li>
-    <li>Carpet</li>
-    <li>Upholstery</li>
-    <li>Air</li>
+    <li>Water Damage Restoration</li>
+    <li>Fire/Smoke Damage</li>
+    <li>Mold Remediation</li>
+    <li>Carpet Cleaning</li>
+    <li>Upholstery Cleaning</li>
+    <li>Tile & Grout/Stone Cleaning</li>
+    <li>Air Duct Cleaning</li>
   </ul>
 </span>
 </div>
 </div>
 </div>
 <div class="btmBody">
-  <h2>Need Help?</h2>
-  <div class="visible-lg visible-md">
-    <span>Please use the form below to contact us with questions or comments</span>
-    <span>For emergencies, please call (440) 944-3957</span>
+  <div class="container-fluid">
+
+  <p id="contact" class="btmBodyH">Need Help?</p>
+  <div id="btmText" class="visible-lg visible-md">
+    <span class="btmBodyText">Please use the form below to contact us with questions or comments.</span>
+    <span class="btmBodyNum">For emergencies, please call (440) 944-3957</span>
   </div>
-  <div class="visible-sm visible-xs">
-    <span>Please use the form below to contact us with questions or comments</span>
+  <div id="smbtmText" class="visible-sm visible-xs">
+    <span class="btmBodyText">Please use the form below to contact us with questions or comments.</span>
     </br>
-    <span>For emergencies, please call (440) 944-3957</span>
+    <span class="btmBodyNum">For emergencies, please call (440) 944-3957</span>
   </div>
   <div class="row">
     <div class="col-md-4 col-sm-4">
-      <img src="images/truck.png" alt="Pine Ridge Cleaners" class="img-responsive">
+      <img src="images/truck.png" alt="Pine Ridge Cleaners" class="img-responsive visible-lg visible-md">
     </div>
     <div class="col-md-8 col-sm-8">
       <form class="" action="index.html" method="post">
@@ -128,8 +138,13 @@
         </br>
         <input type="text" name="howcanwehelp" placeholder="how can we help you?">
       </form>
+      <button id="submitBtn" class="btn btn-default" type="button" name="button">S U B M I T</button>
+
     </div>
+    <img src="images/truck.png" alt="Pine Ridge Cleaners" class="img-responsive visible-xs visible-sm">
+
   </div>
+</div>
 
 </div>
 <div id="footer">
@@ -137,7 +152,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-5 col-sm-5 col-xs-5 footerImgs">
-        <a href="Angieslist.com"><img id="angies" src="images/Angie's-List-Logo.png" alt="Angie's List" class="img-responsive"></a>
+        <a href="Angieslist.com"><img id="angies" src="images/Angies-List-Logo.png" alt="Angie's List" class="img-responsive"></a>
         <a href="whodoyou.com"><img src="images/Who-Do-You.png" alt="Who Do You?" class="img-responsive"></a>
         <a href="betterbizzbearue.com"><img id="bbb" src="images/BBB-Logo.png" alt="BBB" class="img-responsive"></a>
 
@@ -158,6 +173,8 @@
 </div>
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
   <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+
 
 </body>
 </html>

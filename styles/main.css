@@ -10,6 +10,8 @@ body {
 	margin:0;
 	padding:0;
 	height:100%;
+  background-color:  rgb(225,222,215);
+
 }
 #wrapper {
 	min-height:100%;
@@ -126,18 +128,27 @@ body {
 
 }
 #navLinkList  li:hover{
-  background-color:hsla(120, 100%, 21%, 0.84);
+  background-color:rgb(17,85,82);
+  color: white;
   -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
 -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+box-shadow: 1px 2px 5px rgba(0,0,0,.5);
+-moz-border-radius-topleft: 10px;
+  -moz-border-radius-topright: 10px;
+  -moz-border-radius-bottomright: 0px;
+  -moz-border-radius-bottomleft: 0px;
+  -webkit-border-radius: 7px 7px;
+  border-radius: 7px 7px;
 }
-
+#navLinkList li a:hover{
+  color: rgb(225,222,215);
+}
 /* ++++++++++++++Search in Navbar++++++++++++++ */
 
 .navbar-form{
   padding: 0;
 }
-#searchBox{
+input{
   color: rgb(17,85,82);
   width: 255px;
   height: 35px;
@@ -153,6 +164,10 @@ box-shadow: 1px 2px 3px rgba(0,0,0,.5);
   position: relative;
   top: 10px;
   right: 10px;
+}
+#navSearch input{
+  background-color: rgb(231,231,230)
+
 }
 .fa{
   padding-right: 20px;
@@ -179,7 +194,104 @@ box-shadow: 1px 2px 3px rgba(0,0,0,.5);
 /*   background-image: url("../images/banner1.png");
  */
 }
+.topBody img{
+  margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
 
+ .midBody{
+   padding: 0.01% 3%;
+   background-color: rgb(42,72,69);
+   font-family: Open Sans, sans-serif;
+   font-weight: 300;
+   color: white;
+
+ }
+ .midBodyH{
+   font-size: 2em;
+   margin-top: 50px;
+   margin-bottom: 30px;
+ }
+ .midBodyP{
+   font-size: 1em;
+   padding-right: 50px;
+ }
+ .midBody ul{
+   margin-top: 50px;
+   margin-bottom: 50px;
+ }
+.midBody ul li{
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 1.3em;
+  padding: 5px 10px;
+}
+.btmBody img{
+  margin-left: auto;
+    margin-right: auto;
+}
+.btmBody{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 0.01% 2%;
+  background-color:  rgb(225,222,215);
+}
+.btmBodyH{
+  padding: 15px 25px;
+  font-size: 3em;
+  font-family: Open Sans, sans-serif;
+  font-weight: 600;
+  color: rgb(17,85,82);
+  font-style: italic;
+}
+.btmBodyText{
+
+  padding: 15px 25px;
+  font-size: 1.3em;
+  font-family: Open Sans, sans-serif;
+  font-weight: 400;
+  color: rgb(17,85,82);
+}
+.btmBodyNum{
+  padding: 15px 25px;
+  white-space: nowrap;
+  font-size: 1.5em;
+  font-family: Open Sans, sans-serif;
+  font-weight: 600;
+  color: rgb(17,85,82);
+}
+.btmBody input{
+  background-color: rgb(231,231,230);
+  margin: 1%;
+  width: 47%;
+}
+.btmBody input:first-child, .btmBody input:last-child{
+  width: 96%;
+}
+.btmBody input:last-child{
+  height: 163px;
+}
+#submitBtn{
+  font-family: Open Sans, sans-serif;
+  font-weight: 600;
+  color: white;
+  font-size:1.3em;
+  float: right;
+  margin-right: 25px;
+  width: 130px;
+  height: 50px;
+  background-color: rgb(40,127,118);
+}
+#btmText{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+#smbtmText{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  }
 /* ++++++++++++++Footer++++++++++++++ */
 
 .footer {
